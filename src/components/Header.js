@@ -9,12 +9,14 @@ import picture6 from "../images/Project6.jpg"
 
 const glass = {backdropFilter: "bluer(6px)", backgroundColor: "rgba(255,255,255,0.3)",  padding: "0.625rem 0.75rem 0.75rem 0.75rem", borderRadius: "8px"}
 
+
 const Header = ({ page }) => {
   return (
     <section>
       <div className="header-wraper">
         <div className="main-info">
           <h1 style={glass}>Hello Welcome to my Portfolio!</h1>
+          <a href="mailto:Jordanotterson7@gmail.com">Contact Me!</a>
         </div>
       </div>
       {page === 1 && (
