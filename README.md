@@ -16,4 +16,6 @@ npm i from the package.json
 
 ## Tech Blog URL
 
+[Heroku Deployment](https://otterpop7-react-portfolio.herokuapp.com/)
+
 <img src="src/images/React-App.png" alt="React Portfolio" width="800" height="1200"></img>
