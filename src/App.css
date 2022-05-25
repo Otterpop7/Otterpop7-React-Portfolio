@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+:root {
+  --space-cadet: #141b51;
+  --wheat: #e1ca96;
+  --wild-blue-yonder: #adb9e3;
+  --red-crayola: #ed254e;
+  --nickel: #626c66;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Odibee Sans', cursive;
+}
+/******Nav Links******/
+
+.navbar {
+  background-color: var(--space-cadet) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav a.nav-link {
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav ul li {
+  text-transform: uppercase;
+
 }
 
-.App-link {
-  color: #61dafb;
+nav a {
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--wheat) !important;
+}
+
+.navbar-brand {
+  color: var(--wheat) !important;
+}
+
+.faBars {
+  color: var(--wheat) !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+  border-bottom: 0.1875rem solid var(--red-crayola);
+}
+
+.navbar-nav > li > a:hover {
+  border-bottom: 0.1875rem solid var(--red-crayola);
 }
