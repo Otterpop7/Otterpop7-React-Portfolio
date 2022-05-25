@@ -61,7 +61,7 @@ nav a {
   background: url(background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 93.6vh;
 }
 
 .main-info {
@@ -79,7 +79,7 @@ nav a {
 }
 
 .main-info h1 {
-  color: var(--wild-blue-yonder);
+  color: var(--red-crayola);
   text-transform: uppercase;
 }
 
