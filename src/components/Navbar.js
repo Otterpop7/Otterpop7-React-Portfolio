@@ -4,7 +4,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 const Navbar = ({ setPage }) => {
   return (
-    <nav className="navbar navbar-expand-lg" style={{height: "70px"}}>
+    <nav className="navbar navbar-expand-lg sticky-top" style={{height: "70px"}}>
       <div className="container container-fluid">
         <a className="navbar-brand" href="#">
           Jordan Otterson Portfolio
